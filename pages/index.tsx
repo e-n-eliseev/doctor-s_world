@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Doctor's world page</title>
+        <title>Doctor&apos;s world page</title>
         <meta name="description" content="Doctor's world test task page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -1,11 +1,11 @@
 import Image from "next/image";
 import { FC } from "react";
 import img from "../../public/doctor.png"
-import { IPatient } from "../../types/types";
+import { IPatientSymptom } from "../../types/types";
 import Description from "./description/Description";
 
 //данные блока карусели
-const symptoms: IPatient[] = [
+const symptoms: IPatientSymptom[] = [
     {
         name: "scoliosis",
         img1: "/plus.svg",

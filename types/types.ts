@@ -10,9 +10,11 @@ export interface IImg extends IBase {
 export interface IPatient extends IBase {
     description: string[]
 }
-
-export interface ISymptom extends IPatient {
+export interface IPatientSymptom extends IPatient {
     img2: string;
+}
+
+export interface ISymptom extends IPatientSymptom {
     angle: number
 }
 

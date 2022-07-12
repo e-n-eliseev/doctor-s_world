@@ -1,0 +1,13 @@
+%flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin font($size,$weight,$height,$color:$primary-text-color){
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+    color: $color;
+}

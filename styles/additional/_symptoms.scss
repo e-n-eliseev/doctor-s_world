@@ -1,30 +1,36 @@
-.symptoms{
+.symptoms {
     padding: 89px 27px;
     width: 100%;
     position: relative;
-    &__heading{
-        @include font($plain-text-size-2,700,21px,$additional-text-color-1);
+
+    &__heading {
+        @include font($plain-text-size-2, 700, 21px, $additional-text-color-1);
     }
-    &__heading-addings{
-        @include font($plain-text-size-3,500,16px,$additional-text-color-2);
+
+    &__heading-addings {
+        @include font($plain-text-size-3, 500, 16px, $additional-text-color-2);
     }
-    &__carousel{
+
+    &__carousel {
         @extend %flex;
         justify-content: center;
         margin: 272px 0;
 
     }
-    &__carousel-wrapper{
-            width: 316px;
-            height: 316px;
-            position: relative;
+
+    &__carousel-wrapper {
+        width: 316px;
+        height: 316px;
+        position: relative;
     }
-    &__img{
+
+    &__img {
         border-radius: 50%;
         overflow: hidden;
         position: relative;
     }
-    &__filter{
+
+    &__filter {
         background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 59.9%, $base-color 85.42%);
         opacity: 40%;
         background-color: $base-color;
@@ -33,50 +39,60 @@
         width: 100%;
         height: 100%;
     }
-    &__type{
-        @include font($heading-text-size-h3,700,35px,$additional-text-color-2);
+
+    &__type {
+        @include font($heading-text-size-h3, 700, 35px, $additional-text-color-2);
         position: absolute;
         z-index: 2;
-        top:235px;
-        left:85px;
+        top: 235px;
+        left: 85px;
     }
-    &__description{
+
+    &__description {
         position: absolute;
         top: -140px;
         left: 108px;
         transform-origin: 50px 301px;
     }
-    &__wrapper{
+
+    &__wrapper {
         position: relative;
     }
-    &__button{
+
+    &__button {
         width: 100px;
         height: 100px;
     }
-    &__text{
+
+    &__text {
         width: 235px;
-        @include font($plain-text-size-2,700,22px);
-        position:absolute;
-        &--right{
+        @include font($plain-text-size-2, 700, 22px);
+        position: absolute;
+
+        &--right {
             top: 20%;
             left: 135px;
         }
-        &--left{
+
+        &--left {
             top: 40%;
             left: -270px;
             text-align: right;
         }
-        &--top{
+
+        &--top {
             top: -43px;
             left: 25px;
         }
-        &--bottom{
+
+        &--bottom {
             top: 125px;
             left: -60px;
             text-align: center;
         }
     }
-    &__plus{
+
+    &__plus {
         position: absolute;
         top: -32px;
         left: -32px;

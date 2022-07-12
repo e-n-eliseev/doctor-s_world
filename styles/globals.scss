@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100;400;700&family=Noto+Serif:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 @import "./additional/patient";
 @import "./additional/symptoms";
+@import "./additional/media";
 
 html,
 body {
@@ -33,6 +34,7 @@ body {
   &__description{
     @include font($heading-text-size-h2,700,54px);
     margin: 10px 0 0 0;
+    text-align: center;
   }
   &__patients{
     display: flex;
